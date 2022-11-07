@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <locale.h>
 
 int main()
 {
-    setlocale(LC_ALL,"Portuguese");
+   
     float fixo,vendas, comissao, total;
     
     printf("Digite o salÃ¡rio do vendedor: ");
@@ -20,7 +19,7 @@ int main()
     
     total=fixo+comissao;
     
-    printf("O salÃ¡rio total do vendedor Ã© %.2f",total);
+    printf("O salario total do vendedor Ã© %.2f",total);
     
     return 0;
 }
